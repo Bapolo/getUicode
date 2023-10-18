@@ -88,6 +88,12 @@ main output {
         font-size: 3rem;
     }
 
+    main output
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }    
+
      #feedback   
     {
         display: none;
