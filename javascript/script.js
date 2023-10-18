@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () =>
     {
         if (charactere.length === 1)
         {
-            const unicodePoint = charactere.charCodeAt(0).toString(16)
-            return `U+${unicodePoint}`
+            const codePoint = punycode.ucs2.decode(charactere);
+            return codePoint.map(point => 'U+' + point.toString(16)).join(' ');    
         }
     }
 
