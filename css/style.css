@@ -43,7 +43,7 @@ main output {
 
     main h1 {
         color: rgb(235, 235, 235);
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin: 0 auto;
         text-align: center;
         padding: 2rem 0 0 0;
@@ -72,7 +72,7 @@ main output {
         border: none;
         outline: none;
         background-color: rgb(235, 235, 235);
-        text-align: right;
+        text-align: center;
     }
 
     main #saida {
@@ -159,6 +159,7 @@ main output {
     main input {
         height: 10rem;
         font-size: 4rem;
+        text-align: right;
     }
 }
 
