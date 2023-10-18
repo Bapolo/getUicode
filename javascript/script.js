@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () =>
     
             document.body.removeChild(textarea)
 
-            feedback.style.display = "inline-block"
+            feedback.style.display = "block"
             feedback.style.animation = "fadeIn 0.2s linear"
 
             setTimeout(() => 
